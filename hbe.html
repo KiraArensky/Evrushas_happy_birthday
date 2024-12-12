@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ff80ab;
+            padding: 30px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin: 0;
+        }
+        .content {
+            padding: 30px;
+            margin-bottom: 55px;
+        }
+        .content p {
+            font-size: 1.2rem;
+        }
+        .gif {
+            margin: 20px auto;
+            max-width: 90%;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .portfolio-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            width: 220px;
+            text-align: center;
+        }
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 20px;
+        }
+        footer {
+            background-color: #ff80ab;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .content p {
+                font-size: 1rem;
+            }
+            .portfolio-item {
+                width: 150px;
+                padding: 15px;
+            }
+            .gif {
+                margin: 15px auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .content p {
+                font-size: 0.9rem;
+            }
+            .portfolio-item {
+                width: 120px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday, Евруша!</h1>
+    </header>
+
+    <div class="content">
+        <p>Поздравляю тебя с Днём Рождения! Чтобы попа никогда не слипалась, счастье и деньги были выше гор, а ты расти большой, не будь лапшой!</p>
+        <img src="https://zabavdom.ru/wp-content/uploads/f/e/2/fe2475d773c2f4cdd9420b58370bcb61.gif" alt="Happy Birthday" class="gif">
+        <p>Ниже небольшой портфолио, чтобы напомнить, как ты крута:</p>
+
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="https://sun9-49.userapi.com/impg/FaznDEeGOPhhcCASD0M8P4mwZYJhvpqys_Cj8Q/ZtrhM1ItYfA.jpg?size=1280x854&quality=95&sign=9fa857d884445200a49fd5770d3daf9f&type=album" alt="Театральная такая">
+                <p>Здесь ты такая театральная, такая умница, добиваешься того, чего хочешь и к чему стремишься!</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://sun9-30.userapi.com/impg/Tqi3gdzMJTnPtr6l3dCDBo0AntGj6G1KwXIloQ/OQ4syocTYFo.jpg?size=962x1278&quality=95&sign=afd93e695cb5ee69a583ed72c97041c8&type=album" alt="Эстетичная">
+                <p>Тут ты такая эстетичная, такая как с пинтереста, ты даже с других городов поражаешь своей красотой!</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://sun9-78.userapi.com/impg/VA7NY6VgCTkeW1t-KqDO4-BLC41sZUU7XUbnnw/fmk-CoRGeTc.jpg?size=796x783&quality=95&sign=a61075f24c51d48b337d6c9abfb08616&type=album" alt="Хихихихихи">
+                <p>А вот на этом ты такая живая, такая смешная и настоящая, моя любимая и игривая!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>С любовью, Кирюша</p>
+    </footer>
+</body>
+</html>
